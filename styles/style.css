@@ -1,4 +1,50 @@
-header {
+header, .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: #f7d5da;
+  height: 100vh;
+  color: #727272;
+}
+
+header button, .contact button {
+  background: #a8cbd1;
+}
+
+header button:hover, .contact button:hover {
+  background: #c3f0f3;
+}
+
+header button::after, .contact button::after {
+  content: " Now!";
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: darkcyan;
+  color: floralwhite;
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */

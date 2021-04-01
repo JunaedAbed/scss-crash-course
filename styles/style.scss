@@ -1,3 +1,10 @@
-header {
-  background: rgb(247, 213, 218);
+@import "./variables";
+@import "./header";
+
+.contact {
+  @include flexCenter(row, $secondaryBgColor);
+
+  @extend header;
+  color: floralwhite;
+  width: 100% - 20%;
 }
